@@ -1,0 +1,29 @@
+:root {
+  // Backgrounds
+  // Colors
+
+  // Margin + Padding
+  --s-size: calc(var(--m-size) / 1.6);
+  --m-size: 1.6rem;
+  --l-size: calc(var(--m-size) * 2);
+  --xl-size: calc(var(--m-size) * 3);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+.is-active {
+  font-weight: bold;
+}
