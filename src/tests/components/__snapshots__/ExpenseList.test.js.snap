@@ -1,3 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render ExpenseList with expense 1`] = `ShallowWrapper {}`;
+exports[`should render ExpenseList with expense 1`] = `
+<div>
+  <h1>
+    Expenses List
+  </h1>
+  <ExpensesListItem
+    amount={195}
+    createdAt={0}
+    id={1}
+    key="1"
+    note=""
+    title="Gum"
+  />
+  <ExpensesListItem
+    amount={1000}
+    createdAt={-345600000}
+    id={2}
+    key="2"
+    note=""
+    title="Rent"
+  />
+  <ExpensesListItem
+    amount={550}
+    createdAt={345600000}
+    id={3}
+    key="3"
+    note=""
+    title="Credit Card"
+  />
+</div>
+`;
